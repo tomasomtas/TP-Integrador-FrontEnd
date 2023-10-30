@@ -1,12 +1,22 @@
-/*Página Principal*/
-
 .navbar {
   padding: 3rem;        
+  background-color: rgb(65, 68, 65);
+
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
+}
+
+.nav-link {
+
+  color: rgb(255, 255, 255) !important;
+}
+
+.nombre-logo {
+
+  color: rgb(255, 255, 255) !important;
 }
 
 .link-verde {
@@ -137,7 +147,7 @@ footer {
   width: 50px;
   }
 
-/* Página Tickets */
+
 
 .link-verde-ticket{
   color: #9de853 !important; 
@@ -208,7 +218,7 @@ footer {
 }
 
 
-/* Responsive */
+
 
 
 @media screen and (max-width: 910px) {
@@ -300,3 +310,4 @@ footer {
       position: fixed;
   }
 }
+
